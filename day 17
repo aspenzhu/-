@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Media Queries: width</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <h1>足不出户的第17天</h1>
+        <p>工作学习锻炼之余，我开始想念远方</p>
+    </div>
+  
+    <div>
+        <img src="forest.jpg" alt="阳光森林">
+        <h2>森林</h2>
+        <p>那天计划说要去热带丛林，之前没去过这样的地，只在屏幕里向往过，因此很憧憬。途中发生了一些小波折，但当看到一整片苍天大树直指云天，阳光从树缝间倾泻而下，我早已忘了这俗世纷扰。</p>
+    </div>
+
+    <div>
+        <img src="monkey.jpg" alt="讨吃小猴">
+        <h2>逗猴</h2>
+        <p>丛林入口有一处野生猴子的栖息地，几根竹竿立在溪水上边，游客可以买些花生或香蕉投喂它们。猴们上蹿下跳，争夺食物，我可以站在边上看一整天。</p>
+    </div>
+    
+    <div>
+        <img src="forest.jpg" alt="阳光森林">
+        <h2>森林</h2>
+        <p>那天计划说要去热带丛林，之前没去过这样的地，只在屏幕里向往过，因此很憧憬。途中发生了一些小波折，但当看到一整片苍天大树直指云天，阳光从树缝间倾泻而下，我早已忘了这俗世纷扰。</p>
+    </div>
+
+    <div>
+        <img src="monkey.jpg" alt="讨吃小猴">
+        <h2>逗猴</h2>
+        <p>丛林入口有一处野生猴子的栖息地，几根竹竿立在溪水上边，游客可以买些花生或香蕉投喂它们。猴们上蹿下跳，争夺食物，我可以站在边上看一整天。</p>
+    </div>
+</body>
+</html>
+
+body{
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+
+img{
+    width: 420px;
+    border-radius: 2px;
+
+}
+
+div:nth-of-type(1){
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 40px;
+    color: rgb(5, 114, 72);
+    line-height: 28px;
+}
+
+div:nth-of-type(2){
+    width: 48%;
+    float: left;
+    line-height: 20px;
+    color: rgb(5, 114, 72);
+}
+
+div:nth-of-type(3){
+    width: 48%;
+    float: right;
+    line-height: 20px;
+    color: rgb(5, 114, 72);
+}
+
+div:nth-of-type(4){
+    width: 48%;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    line-height: 20px;
+    color: rgb(5, 114, 72);
+}
+
+div:nth-of-type(5){
+    width: 48%;
+    float: right;
+    margin-top: 30px;
+    line-height: 20px;
+    margin-bottom: 40px;
+    color: rgb(5, 114, 72);
+}
+
+ 
